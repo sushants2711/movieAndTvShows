@@ -5,22 +5,17 @@ A **Favorite Movies & TV Shows Web Application** that allows users to efficientl
 ---
 
 🔗 **Live Demo:**
-[MovieSpot]()
+[MovieSpot](https://movie-tv-show-frontend-sushant.vercel.app/)
 
 ---
 
 🔗 **Backend Deployment Link:**
-[MovieSpot]()
+[MovieSpot](https://backend-movie-and-tv-shows.onrender.com)
 
 ---
 
 🔗 **Github Link:**
-[MovieSpot]()
-
----
-
-🔗 **Demo Video:**
-[MovieSpot]()
+[MovieSpot](https://github.com/sushants2711/movieAndTvShows)
 
 ---
 
