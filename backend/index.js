@@ -21,8 +21,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+const allowedOrigins = [
+    "https://movie-tv-show-frontend-sushant-g8202wzlt.vercel.app",
+    "https://movie-tv-show-frontend-sushant.vercel.app"
+];
+
 app.use(cors({
-    origin: "http://localhost:5173",
+    // origin: "http://localhost:5173",
+    origin: allowedOrigins,
     credentials: true,
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: ["Content-Type", "Authorization"]
